@@ -4,6 +4,7 @@
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
+
 [![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes)
 
 my personal site: [jia.build](https://www.jia.build/)
