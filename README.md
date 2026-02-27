@@ -32,7 +32,7 @@ prev sprint.dev (20k users in 5 months, $48k profit)
 ![disney](https://private-user-images.githubusercontent.com/123830780/530260948-2d804c36-e8c6-412b-931b-200dac2506c4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9)
 ![intuit](https://private-user-images.githubusercontent.com/123830780/530260888-adca7b78-62f6-4609-bbab-752f0f88fcdf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9)
     
-*turned down infra SWE offers from both to go full-time on own products*
+*turned down SWE offers from both to go full-time on own products*
 
 ---
 
