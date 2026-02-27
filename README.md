@@ -1,7 +1,9 @@
-# hey, i'm jia! 
+[README.md](https://github.com/user-attachments/files/25591574/README.md)
+# hey, i'm jia!
 
 [![Instagram](https://img.shields.io/badge/Instagram-71k-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jia.seed)
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
+<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total_stars-193-yellow?style=for-the-badge&logo=github)<!--STARS_END-->
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
 
@@ -9,30 +11,28 @@ co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
 
 my personal site: [jia.build](https://www.jia.build/)
 
-hacking on **asillios-limiter** @ [asillios.com](https://www.asillios.com/) an open source typescript library for rate limiting 
+hacking on **asillios-limiter** @ [asillios.com](https://www.asillios.com/) an open source typescript library for rate limiting
 
 [![npm version](https://img.shields.io/npm/v/asillios-limiter?style=for-the-badge)](https://www.npmjs.com/package/asillios-limiter)
 [![GitHub stars](https://img.shields.io/github/stars/audgeviolin07/asillios-limiter?style=for-the-badge)](https://github.com/audgeviolin07/asillios-limiter)
+
 ```bash
 npm install asillios-limiter
 ```
+
 and [full breakdown of backend dev notes (color coded)](https://tabby-andesaurus-3a2.notion.site/backend-web-dev-notes-3d5d0573a2a84a6db13e4beade195e71?pvs=74)
 
 prev sprint.dev (20k users in 5 months, $48k profit)
 
 ---
 
-<p align="center">
-  <img width="124" height="71" alt="disney" src="https://github.com/user-attachments/assets/2d804c36-e8c6-412b-931b-200dac2506c4" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img width="112" height="71" alt="intuit" src="https://github.com/user-attachments/assets/adca7b78-62f6-4609-bbab-752f0f88fcdf" />
-</p>
-
-<p align="center">
-  <em>turned down infra SWE offers from both to go full-time on own products</em>
-</p>
+![disney](https://private-user-images.githubusercontent.com/123830780/530260948-2d804c36-e8c6-412b-931b-200dac2506c4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9)
+![intuit](https://private-user-images.githubusercontent.com/123830780/530260888-adca7b78-62f6-4609-bbab-752f0f88fcdf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9)
+    
+*turned down infra SWE offers from both to go full-time on own products*
 
 ---
+
 ---
 
 ## 🏆 23x hackathon wins @ princeton, upenn, yc etc
@@ -72,7 +72,3 @@ why are you stalking my github lol
 Here are some of my github stats!
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jia-seed)](https://git.io/streak-stats)
-
-<p align="center">
-  <img src="https://github.com/audgeviolin07/audgeviolin07/assets/123830780/2e0a9ff8-5f1d-4515-a591-bc02929c92d1" alt="Image" style="border-radius: 10; width: 150; height: 150px;">
-</p>
