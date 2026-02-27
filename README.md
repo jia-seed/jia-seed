@@ -29,8 +29,11 @@ prev sprint.dev (20k users in 5 months, $48k profit)
 
 ---
 
-![disney](https://private-user-images.githubusercontent.com/123830780/530260948-2d804c36-e8c6-412b-931b-200dac2506c4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9)
-![intuit](https://private-user-images.githubusercontent.com/123830780/530260888-adca7b78-62f6-4609-bbab-752f0f88fcdf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9)
+!<p align="center">
+  <img width="124" height="71" alt="disney" src="https://github.com/user-attachments/assets/2d804c36-e8c6-412b-931b-200dac2506c4" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="112" height="71" alt="intuit" src="https://github.com/user-attachments/assets/adca7b78-62f6-4609-bbab-752f0f88fcdf" />
+</p>
     
 *turned down SWE offers from both to go full-time on own products*
 
