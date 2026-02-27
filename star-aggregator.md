@@ -2,7 +2,7 @@
 
 A simple GitHub Action that counts the total stars across your pinned (or any) repositories and displays a live-updating badge on your GitHub profile README.
 
-![Total Stars](https://img.shields.io/badge/total_stars-193-yellow?style=for-the-badge&logo=github)
+![Total Stars](https://img.shields.io/badge/total__stars-193-yellow?style=for-the-badge&logo=github)
 
 ## How It Works
 
@@ -14,13 +14,17 @@ A GitHub Action runs every 6 hours (or on demand), queries the GitHub API for st
 
 Your profile README lives in a repo named the same as your GitHub username. For example, if your username is `octocat`, create a repo called `octocat` with a `README.md` file.
 
-### 2. Add the badge placeholder to your README
+### 2. Add the badge to your README
 
 Paste this line wherever you want the badge to appear in your `README.md`:
 
 ```markdown
-<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total_stars-0-yellow?style=for-the-badge&logo=github)<!--STARS_END-->
+![Total Stars](https://img.shields.io/badge/total__stars-0-yellow?style=for-the-badge&logo=github)
 ```
+
+> **Important:** Shields.io uses `-` as a separator and `_` as a space. To display a literal underscore, use `__` (double underscore). This is why the URL has `total__stars` and not `total_stars`.
+
+Make sure the badge is on its own line with a blank line before and after it, or GitHub won't render it as an image.
 
 ### 3. Add the workflow file
 
@@ -71,8 +75,8 @@ jobs:
             let readme = fs.readFileSync('README.md', 'utf8');
 
             readme = readme.replace(
-              /<!--STARS_START-->.*<!--STARS_END-->/s,
-              `<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total_stars-${totalStars}-yellow?style=for-the-badge&logo=github)<!--STARS_END-->`
+              /!\[Total Stars\]\(https:\/\/img\.shields\.io\/badge\/total__stars-\d+-yellow\?style=for-the-badge&logo=github\)/,
+              `![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-yellow?style=for-the-badge&logo=github)`
             );
 
             fs.writeFileSync('README.md', readme);
@@ -151,6 +155,8 @@ schedule:
 
 | Problem | Fix |
 |---------|-----|
+| Badge shows as raw text, not an image | Make sure the badge is on its own line with blank lines before and after it. Remove any HTML comments directly touching the markdown |
+| Badge label shows spaces instead of underscores | Use `__` (double underscore) in the shields.io URL. Single `_` renders as a space |
 | Action fails with `Permission denied` | Enable **Read and write permissions** in Settings > Actions > General > Workflow permissions |
 | Badge shows `0` | Make sure your repo list in the workflow matches your actual repo names exactly |
 | Action doesn't appear in Actions tab | Make sure the `.yml` file is on your default branch (usually `main`) |
@@ -164,7 +170,8 @@ Here's what it looks like in a profile README:
 # hey, i'm jia!
 
 [![Instagram](https://img.shields.io/badge/Instagram-71k-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jia.seed)
-<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total_stars-193-yellow?style=for-the-badge&logo=github)<!--STARS_END-->
+
+![Total Stars](https://img.shields.io/badge/total__stars-193-yellow?style=for-the-badge&logo=github)
 
 ...rest of your readme
 ```
