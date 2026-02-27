@@ -2,7 +2,7 @@
 
 [![Instagram](https://img.shields.io/badge/Instagram-71k-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jia.seed)
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
-<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total_stars-196-yellow?style=for-the-badge&logo=github)<!--STARS_END-->
+<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total__stars-196-yellow?style=for-the-badge&logo=github)<!--STARS_END-->
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
 
