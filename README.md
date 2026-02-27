@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/25591574/README.md)
 # hey, i'm jia!
 
 [![Instagram](https://img.shields.io/badge/Instagram-71k-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jia.seed)
