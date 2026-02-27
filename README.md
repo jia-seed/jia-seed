@@ -4,11 +4,13 @@
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
 
 ![Total Stars](https://img.shields.io/badge/total__stars-196-yellow?style=for-the-badge&logo=github)
+l[ink for repo as to how i aggregated the stars with github actions 
+](https://github.com/jia-seed/github-star-aggregator)
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
 
-[![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes) l[ink for repo as to how i aggregated the stars with github actions 
-](https://github.com/jia-seed/github-star-aggregator)
+[![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes) 
+
 my personal site: [jia.build](https://www.jia.build/)
 
 hacking on **asillios-limiter** @ [asillios.com](https://www.asillios.com/) an open source typescript library for rate limiting
