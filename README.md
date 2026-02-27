@@ -4,7 +4,8 @@
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
 
 ![Total Stars](https://img.shields.io/badge/total__stars-196-yellow?style=for-the-badge&logo=github)
-l[ink for repo as to how i aggregated the stars with github actions 
+
+[ink for repo as to how i aggregated the stars with github actions 
 ](https://github.com/jia-seed/github-star-aggregator)
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
