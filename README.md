@@ -5,7 +5,7 @@
 
 ![Total Stars](https://img.shields.io/badge/total__stars-196-yellow?style=for-the-badge&logo=github)
 
-[ink for repo as to how i aggregated the stars with github actions 
+[link for repo as to how i aggregated the stars with github actions 
 ](https://github.com/jia-seed/github-star-aggregator)
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
