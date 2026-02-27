@@ -7,8 +7,8 @@
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
 
-[![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes)
-
+[![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes) l[ink for repo as to how i aggregated the stars with github actions 
+](https://github.com/jia-seed/github-star-aggregator)
 my personal site: [jia.build](https://www.jia.build/)
 
 hacking on **asillios-limiter** @ [asillios.com](https://www.asillios.com/) an open source typescript library for rate limiting
