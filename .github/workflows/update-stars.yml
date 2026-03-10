@@ -2,7 +2,7 @@ name: Update Total Stars
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # every 6 hours
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,40 +11,43 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Count stars and update README
+      - name: Count stars from pinned repos and update README
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
 
-            const pinnedRepos = [
-              { owner: 'wespreadjam', repo: 'jam-nodes' },
-              { owner: 'jia-seed', repo: 'asillios-limiter' },
-              { owner: 'wespreadjam', repo: 'jam-discord-bot' },
-              { owner: 'jia-seed', repo: 'backend-dev-notes' },
-              { owner: 'NextTechOKE', repo: 'Hologlass' },
-              { owner: 'jia-seed', repo: 'DIATOS-intel-ai' },
-            ];
+            const query = `{
+              user(login: "${{ github.repository_owner }}") {
+                pinnedItems(first: 6, types: REPOSITORY) {
+                  nodes {
+                    ... on Repository {
+                      name
+                      owner { login }
+                      stargazerCount
+                    }
+                  }
+                }
+              }
+            }`;
+
+            const result = await github.graphql(query);
+            const pinnedRepos = result.user.pinnedItems.nodes;
 
             let totalStars = 0;
-
-            for (const { owner, repo } of pinnedRepos) {
-              try {
-                const { data } = await github.rest.repos.get({ owner, repo });
-                totalStars += data.stargazers_count;
-                console.log(`${owner}/${repo}: ${data.stargazers_count} stars`);
-              } catch (e) {
-                console.log(`failed to fetch ${owner}/${repo}: ${e.message}`);
-              }
+            for (const repo of pinnedRepos) {
+              totalStars += repo.stargazerCount;
+              console.log(`${repo.owner.login}/${repo.name}: ${repo.stargazerCount} ⭐`);
             }
 
-            console.log(`total stars: ${totalStars}`);
+            console.log(`\ntotal: ${totalStars} ⭐`);
 
             let readme = fs.readFileSync('README.md', 'utf8');
 
             readme = readme.replace(
               /<!--STARS_START-->.*<!--STARS_END-->/s,
-              `<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total_stars-${totalStars}-yellow?style=for-the-badge&logo=github)<!--STARS_END-->`
+              `<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-purple?style=for-the-badge&logo=github)<!--STARS_END-->`
             );
 
             fs.writeFileSync('README.md', readme);
