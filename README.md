@@ -3,7 +3,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-71k-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jia.seed)
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
 
-![Total Stars](https://img.shields.io/badge/total__stars-196-yellow?style=for-the-badge&logo=github)
+![Total Stars](https://img.shields.io/badge/total__stars-230-yellow?style=for-the-badge&logo=github)
 
 [link for repo as to how i aggregated my stars with github actions 
 ](https://github.com/jia-seed/github-star-aggregator)
