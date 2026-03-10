@@ -47,7 +47,7 @@ jobs:
 
             readme = readme.replace(
               /<!--STARS_START-->.*<!--STARS_END-->/s,
-              `<!--STARS_START-->![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-purple?style=for-the-badge&logo=github)<!--STARS_END-->`
+              `<!--STARS_START-->\n![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-purple?style=for-the-badge&logo=github)\n<!--STARS_END-->`
             );
 
             fs.writeFileSync('README.md', readme);
