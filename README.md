@@ -4,7 +4,7 @@
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
 
 <!--STARS_START-->
-![Total Stars](https://img.shields.io/badge/total__stars-244-purple?style=for-the-badge&logo=github)
+![Total Stars](https://img.shields.io/badge/total__stars-245-purple?style=for-the-badge&logo=github)
 <!--STARS_END-->
 
 
