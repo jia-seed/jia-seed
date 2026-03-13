@@ -39,7 +39,7 @@ prev sprint.dev (20k users in 5 months, $48k profit)
 
 ## 🏆 23x hackathon wins @ princeton, upenn, yc etc
 
-taiwanese girl who loves boba 🧋 | [devpost](https://devpost.com/audgeviolin07) | [portfolio](https://www.jia.build/)
+taiwanese girl who loves boba 🧋 | [devpost](https://devpost.com/audgeviolin07) 
 
 | # | hackathon | prize |
 |---|-----------|-------|
