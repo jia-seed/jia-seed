@@ -8,7 +8,7 @@
 <!--STARS_END-->
 
 
-[link for repo as to how i aggregated my stars with github actions 
+[link for repo as to how i added all my stars with github actions 
 ](https://github.com/jia-seed/github-star-aggregator)
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
