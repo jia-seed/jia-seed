@@ -17,11 +17,6 @@ co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
 
 my personal site: [jia.build](https://www.jia.build/)
 
-hacking on **asillios-limiter** @ [asillios.com](https://www.asillios.com/) an open source typescript library for rate limiting
-
-[![npm version](https://img.shields.io/npm/v/asillios-limiter?style=for-the-badge)](https://www.npmjs.com/package/asillios-limiter)
-[![GitHub stars](https://img.shields.io/github/stars/audgeviolin07/asillios-limiter?style=for-the-badge)](https://github.com/audgeviolin07/asillios-limiter)
-
 ```bash
 npm install asillios-limiter
 ```
