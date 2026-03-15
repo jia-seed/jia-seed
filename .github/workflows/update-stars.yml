@@ -18,26 +18,35 @@ jobs:
           script: |
             const fs = require('fs');
             
-            const allRepos = await github.paginate(github.rest.repos.listForUser, {
-              username: '${{ github.repository_owner }}',
-              type: 'owner',
-              per_page: 100,
-            });
+            const query = `{
+              user(login: "${{ github.repository_owner }}") {
+                pinnedItems(first: 6, types: REPOSITORY) {
+                  nodes {
+                    ... on Repository {
+                      name
+                      owner { login }
+                      stargazerCount
+                    }
+                  }
+                }
+              }
+            }`;
+            
+            const result = await github.graphql(query);
+            const pinnedRepos = result.user.pinnedItems.nodes;
             
             let totalStars = 0;
-            for (const repo of allRepos) {
-              totalStars += repo.stargazers_count;
-              if (repo.stargazers_count > 0) {
-                console.log(`${repo.full_name}: ${repo.stargazers_count}`);
-              }
+            for (const repo of pinnedRepos) {
+              totalStars += repo.stargazerCount;
+              console.log(`${repo.owner.login}/${repo.name}: ${repo.stargazerCount}`);
             }
             
-            console.log(`total across ${allRepos.length} repos: ${totalStars}`);
+            console.log(`total: ${totalStars}`);
             
             let readme = fs.readFileSync('README.md', 'utf8');
             readme = readme.replace(
               /<!--STARS_START-->[\s\S]*?<!--STARS_END-->/,
-              `<!--STARS_START-->\n![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-orange?style=for-the-badge&logo=github)\n<!--STARS_END-->`
+              `<!--STARS_START-->\n![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-8B5CF6?style=for-the-badge&logo=github)\n<!--STARS_END-->`
             );
             fs.writeFileSync('README.md', readme);
 
