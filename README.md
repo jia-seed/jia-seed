@@ -4,7 +4,7 @@
 [![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
 
 <!--STARS_START-->
-![Total Stars](https://img.shields.io/badge/total__stars-179-yellow?style=for-the-badge&logo=github)
+![Total Stars](https://img.shields.io/badge/total__stars-310-8B5CF6?style=for-the-badge&logo=github)
 <!--STARS_END-->
 
 add all your github stars, autoupdating, in one click [starsum.jia.build](https://starsum.jia.build/) [(repo)](https://github.com/jia-seed/starsum)
