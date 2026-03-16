@@ -51,32 +51,12 @@ jobs:
               }
             }
             
-            // Extra contributed repos
-            const extraRepos = [
-              { owner: 'wespreadjam', repo: 'jam-nodes' }
-            ];
-            
-            for (const { owner, repo } of extraRepos) {
-              const key = `${owner}/${repo}`;
-              if (seen.has(key)) continue;
-              try {
-                const { data } = await github.rest.repos.get({ owner, repo });
-                seen.add(key);
-                totalStars += data.stargazers_count;
-                if (data.stargazers_count > 0) {
-                  console.log(`${key}: ${data.stargazers_count}`);
-                }
-              } catch (e) {
-                console.log(`failed to fetch ${key}: ${e.message}`);
-              }
-            }
-            
             console.log(`total across ${seen.size} repos: ${totalStars}`);
             
             let readme = fs.readFileSync('README.md', 'utf8');
             readme = readme.replace(
               /<!--STARS_START-->[\s\S]*?<!--STARS_END-->/,
-              `<!--STARS_START-->\n![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-8B5CF6?style=for-the-badge&logo=github)\n<!--STARS_END-->`
+              `<!--STARS_START-->\n![Total Stars](https://img.shields.io/badge/total__stars-${totalStars}-yellow?style=for-the-badge&logo=github)\n<!--STARS_END-->`
             );
             fs.writeFileSync('README.md', readme);
 
