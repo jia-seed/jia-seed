@@ -1,7 +1,7 @@
 # hey, i'm jia!
 
 [![Instagram](https://img.shields.io/badge/Instagram-71k-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jia.seed)
-[![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.build)
+[![Website](https://img.shields.io/badge/jia.build-portfolio-black?style=for-the-badge)](https://www.jia.sc)
 
 <!--STARS_START-->
 ![Total Stars](https://img.shields.io/badge/total__stars-310-8B5CF6?style=for-the-badge&logo=github)
