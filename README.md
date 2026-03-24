@@ -7,17 +7,24 @@
 ![Total Stars](https://img.shields.io/badge/total__stars-310-8B5CF6?style=for-the-badge&logo=github)
 <!--STARS_END-->
 
-add all your github stars, autoupdating, in one click [starsum.jia.build](https://starsum.jia.build/) [(repo)](https://github.com/jia-seed/starsum)
+## 🚀 AI in Marketing & Automation
 
-co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
+add all your github stars, autoupdating, in one click [starsum.jia.build](https://starsum.jia.build/) [(repo)](https://github.com/jia-seed/starsum) - an AI-powered automation tool for developers
+
+co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed) - leveraging artificial intelligence in marketing to revolutionize content distribution
 
 [![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes) 
 
-my personal site: [jia.build](https://www.jia.build/)
+Previously built **sprint.dev** (20k users, $48k profit) using AI content strategy and marketing automation
 
-and [full breakdown of backend dev notes (color coded)](https://tabby-andesaurus-3a2.notion.site/backend-web-dev-notes-3d5d0573a2a84a6db13e4beade195e71?pvs=74)
+## 🔗 Links
+- My portfolio: [jia.build](https://www.jia.build/) 
+- [Full backend dev notes (color coded)](https://tabby-andesaurus-3a2.notion.site/backend-web-dev-notes-3d5d0573a2a84a6db13e4beade195e71?pvs=74)
+- [Star aggregator tool documentation](https://github.com/jia-seed/jia-seed/blob/main/star-aggregator.md)
 
-prev sprint.dev (20k users in 5 months, $48k profit)
+## 💼 AI Marketing Experience
+
+Applied **AI in marketing** strategies at sprint.dev (20k users in 5 months, $48k profit through AI content marketing)
 
 ---
 
