@@ -9,7 +9,7 @@
 
 add all your github stars, autoupdating, in one click [starsum.jia.build](https://starsum.jia.build/) [(repo)](https://github.com/jia-seed/starsum)
 
-co-founder @ **[jam](https://www.spreadjam.com/)** (pre-seed)
+co-founder @ **[jam](https://www.spreadjam.com/)** (backed by co-founder lovable, hugging face)
 
 [![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes) 
 
