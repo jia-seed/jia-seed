@@ -15,7 +15,7 @@ co-founder @ **[jam](https://www.spreadjam.com/)** (backed by co-founder lovable
 
 my personal site: [jia.build](https://www.jia.build/)
 
-and [full breakdown of backend dev notes (color coded)](https://tabby-andesaurus-3a2.notion.site/backend-web-dev-notes-3d5d0573a2a84a6db13e4beade195e71?pvs=74)
+and [resources.build](https://resources.build/)
 
 prev sprint.dev (20k users in 5 months, $48k profit)
 
