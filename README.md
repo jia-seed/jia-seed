@@ -7,7 +7,7 @@
 ![Total Stars](https://img.shields.io/badge/total__stars-310-8B5CF6?style=for-the-badge&logo=github)
 <!--STARS_END-->
 
-add all your github stars, autoupdating, in one click [starsum.jia.build](https://starsum.jia.build/) [(repo)](https://github.com/jia-seed/starsum)
+add all your github stars, autoupdating, [in one click](https://starsum.jia.build) [(repo)](https://github.com/jia-seed/starsum)
 
 co-founder @ **[jam](https://www.spreadjam.com/)** (backed by co-founders of lovable, hugging face)
 
