@@ -13,8 +13,8 @@ co-founder @ **[jam](https://www.spreadjam.com/)** (backed by co-founders of lov
 
 [![GitHub stars](https://img.shields.io/github/stars/wespreadjam/jam-nodes?style=for-the-badge)](https://github.com/wespreadjam/jam-nodes) 
 
-my personal site: [stalkmefor.free]([https://www.jia.build/](http://stalkmefor.free/
-))
+my personal site: [stalkmefor.free](http://stalkmefor.free/
+)
 
 and [resources.build](https://resources.build/)
 
